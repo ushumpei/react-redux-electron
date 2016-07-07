@@ -1,11 +1,12 @@
 {
-  "name": "mascaras",
+  "name": "react-redux-electron",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --progress --colors"
+    "webpack": "webpack --progress --colors",
+    "webpack --watch": "webpack --progress --colors --watch"
   },
   "keywords": [],
   "author": "",
