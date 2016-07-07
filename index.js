@@ -1,7 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App.js';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import app from './reducers/app.js';
+import App from './components/App.js';
+
+let store = createStore(app);
 
 window.onload = () => {
-  render(<App />, document.getElementById('root'));
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('root')
+  );
 }
