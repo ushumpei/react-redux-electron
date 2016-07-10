@@ -9,9 +9,9 @@
     "electron": "electron .",
     "server": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "redux", "electron", "tutorial", "todos"],
+  "author": "ushumpei",
+  "license": "MIT",
   "dependencies": {
     "electron-prebuilt": "^1.2.6",
     "react": "^15.2.0",
